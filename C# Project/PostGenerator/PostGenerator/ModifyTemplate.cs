@@ -44,12 +44,12 @@ namespace PostGenerator
         {
             if (string.IsNullOrWhiteSpace(textBox1.Text))
             {
-                MessageBox.Show("You need to specify the template name.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("You need to specify the template name.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
             if (dataGridView1.Rows.Count == 0)
             {
-                MessageBox.Show("You need to add at least one message to the list view.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("You need to add at least one message to the list view.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
             Helper.sqliteConn.Open();
