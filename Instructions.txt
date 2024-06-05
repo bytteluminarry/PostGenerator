@@ -1,0 +1,18 @@
+Application path
+****************
+
+	Post Generator\C# Project\PostGenerator\PostGenerator\bin\Debug\PostGenerator.exe
+
+Requirements
+************
+
+	.Net Framework 4.7.2 or later
+
+Important
+*********
+	
+	Get chatgpt api key from https://openai.com/
+	link is : https://platform.openai.com/login?launch
+	Choose Api
+	and then choose API keys to create a secret key	
+	Paste the key in Settings as displayed in the video
