@@ -38,12 +38,12 @@ namespace PostGenerator
         {
             if (string.IsNullOrWhiteSpace(textBox1.Text))
             {
-                MessageBox.Show("You need to specify the message priority.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("You need to specify the message priority.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
             if (string.IsNullOrWhiteSpace(textBox2.Text))
             {
-                MessageBox.Show("You need to specify the message content.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("You need to specify the message content.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
 
