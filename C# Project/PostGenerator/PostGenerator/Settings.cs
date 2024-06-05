@@ -23,7 +23,7 @@ namespace PostGenerator
         {
             if (string.IsNullOrWhiteSpace(textBox1.Text))
             {
-                MessageBox.Show("You need to specify the api key.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("You need to specify the api key.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 return;
             }
             Helper.sqliteConn.Open();
