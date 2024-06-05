@@ -141,7 +141,7 @@ namespace PostGenerator
                 }
                 else
                 {
-                    MessageBox.Show("You need to add an API key in settings first.", "API Key Missing", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("You need to add an API key in settings first.", "API Key Missing", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     return;
                 }
 
